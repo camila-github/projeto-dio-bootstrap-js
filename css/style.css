@@ -1,0 +1,42 @@
+.body {
+    font-size: 30px;
+}
+
+.quemsomos {
+    background-color: white;
+}
+
+#menu {
+    background-color: #585858;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+#menu ul li a {
+    color: white;
+}
+
+#menu ul li a:hover {
+    color: #08298A
+}
+
+.margin {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.parceiros {
+    background-color: #FE9A2E;
+    color: white;
+}
+
+.servicos {
+    background-color: white;
+}
+
+.bg-footer {
+    background-color: #585858;
+    color: white;
+}
