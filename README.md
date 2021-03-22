@@ -13,12 +13,11 @@
 ##### BOOTSTRAP
 
 - Para utilizar o Framework Bootstrap, necessario inicialmente entrar no site abaixo e fazer o download da biblioteca para dentro da pasta do projeto. 
-
- [https://getbootstrap.com/docs/4.5/getting-started/download/](https://getbootstrap.com/docs/4.5/getting-started/download/)
+- [https://getbootstrap.com/docs/4.5/getting-started/download/](https://getbootstrap.com/docs/4.5/getting-started/download/)
 
 ## Site publicado no link: 
  
- [https://camila-github.github.io/projeto-dio-bootstrap/](https://camila-github.github.io/projeto-dio-bootstrap/)
+- [https://camila-github.github.io/projeto-dio-bootstrap/](https://camila-github.github.io/projeto-dio-bootstrap/)
 
 ## Update 
 
