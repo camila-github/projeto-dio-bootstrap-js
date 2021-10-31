@@ -1,4 +1,4 @@
-## Projeto: Criação de uma pagina estatica responsivo, utilizando Bootstrap.
+## Projeto: Criação de uma pagina estatica responsivo, com uso de Bootstrap e JS.
 
 - Foi publicado uma pagina, utilizando os conceitos voltados ao Bootstrap. Conceitos como:
   * Criação de Containers. 
@@ -30,10 +30,10 @@
 
 ## Site Publicado no link abaixo (Referente alteração 31/10/2021)  
 
-- []()
+- [https://camila-github.github.io/projeto-dio-bootstrap/](https://camila-github.github.io/projeto-dio-bootstrap/)
 
 ## Vídeo de demonstração do aplicativo (Referente alteração 31/10/2021)
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/projeto-dio-bootstrap/blob/master/docs/video-.webp"/>
 </p>
