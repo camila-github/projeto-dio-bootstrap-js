@@ -27,6 +27,7 @@
 - Utilizado Flexbox (Css)
 - Reduzido tamanho das imagens convertendo para .webp - Link: https://developers.google.com/speed/webp/download.
 - Realizado pequenas alterações no Layout, mantendo boa parte do layout anterior.
+- O intuito desse update foi treinar uma refatoração, update de versão, troca de ferramenta (como biblioteca), sem fazer muitas alterações no layout do site.
 
 ## Site Publicado no link abaixo (Referente alteração 31/10/2021)  
 
