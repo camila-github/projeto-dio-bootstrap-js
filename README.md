@@ -25,7 +25,7 @@
 - Removido Jquery e utilizado JavaScript ES6 com a biblioteca Scrollreveal.
 - Atualizado versão do Bootstrap para v5.
 - Utilizado Flexbox (Css)
-- Reduzido tamanho das imagens convertendo para .webp (Link: https://developers.google.com/speed/webp/download).
+- Reduzido tamanho das imagens convertendo para .webp - Link: https://developers.google.com/speed/webp/download.
 - Realizado pequenas alterações no Layout, mantendo boa parte do layout anterior.
 
 ## Site Publicado no link abaixo (Referente alteração 31/10/2021)  
