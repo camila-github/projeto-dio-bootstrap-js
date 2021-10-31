@@ -30,7 +30,7 @@
 
 ## Site Publicado no link abaixo (Referente alteração 31/10/2021)  
 
-- [https://camila-github.github.io/projeto-dio-bootstrap/](https://camila-github.github.io/projeto-dio-bootstrap/)
+- [ https://camila-github.github.io/projeto-dio-bootstrap-js/](https://camila-github.github.io/projeto-dio-bootstrap-js/)
 
 ## Vídeo de demonstração do aplicativo (Referente alteração 31/10/2021)
 
