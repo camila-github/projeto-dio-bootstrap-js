@@ -1,343 +1,574 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Restaurant's</title>
-    <!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.css">
-    <!-- bootstrap.min css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font-awesome.min css -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/main.css">
-    <!-- Responsive Stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
+	<title>Restaurant's</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 <body>
-	<!--header-img start-->
-    <section id="hero-area">
-        <img class="img-responsive" src="images/header-inicio.jpg" alt="">
-    </section>
-	<!-- Header start -->
-	<nav id="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <nav class="navbar navbar-default">
-                            <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <a class="navbar-brand" href="#">
-                                        <img src="images/logo.png" alt="Logo">
-                                    </a>
-                                </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                        <li><a href="#hero-area">Home</a></li>
-                                        <li><a href="#about-us">Sobre nós</a></li>
-                                        <li><a href="#blog">Blog</a></li>
-                                        <li><a href="#price">Menu</a></li>
-                                        <li><a href="#subscribe">Notícias</a></li>
-                                        <li><a href="#contact-us">Contato</a></li>
-                                    </ul>
-                                </div><!-- /.navbar-collapse -->
-                            </div><!-- /.container-fluid -->
-                        </nav>
+    <!-- SCROLL TOP START-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <img class="scrolltop__icon" src="assets/img/icons-bx-chevron-up.svg" alt="icons-seta-up">
+    </a><!-- SCROLL TOP END-->
+
+    <!-- HEADER START -->
+    <header>
+
+        <!-- HEADER-IMG START -->
+        <section id="header__inicio">
+            <img class="img-responsive" src="assets/img/header-inicio.webp" alt="">
+        </section><!-- HEADER-IMG END -->
+
+        <!-- HEADER NAV START -->
+        <section id="nav-menu">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navtopo">
+                <div class="container-fluid">
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarTogglerDemo01" 
+                        aria-controls="navbarTogglerDemo01" 
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div>
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/img/header-nav-logo.webp" alt="Logo">
+                        </a>
                     </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .container close -->
-	</nav><!-- header close -->
-    
-    <!-- Slider start -->
-    <section id="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <div class="title">
-                            <h3>Trabalhos em <span> destaque </span></h3>
-                        </div>
-                        <div id="owl-example" class="owl-carousel">
-                            <div><img class="img-responsive" src="images/slider/slider-img-1.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-2.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-3.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-4.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-1.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-2.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-3.jpg" alt=""></div>
-                            <div><img class="img-responsive" src="images/slider/slider-img-4.jpg" alt=""></div>                        
-                        </div>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .container close -->
-    </section><!-- slider close -->
-    
-    <!-- about-us start -->
-    <section id="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cooker-img.jpg" alt="cooker-img">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >Seu <span>Restaurant’s</span> </br> Mais <span>sabor </span>em sua mesa</span>
-                        </h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #call-to-action close -->
-   
-    <!-- blog start -->
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading">Ultimas<span> Novidades</span> no<span> Blog</span></h1>
-                        <ul>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-                                <div class="blog-img"><img src="images/blog/blog-img-1.jpg" alt="blog-img"></div>
-                                <div class="content-right">
-                                    <h3>Frango ao molho branco</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
-                                <div class="blog-img"><img src="images/blog/blog-img-2.jpg" alt="blog-img"></div>
-                                <div class="content-right">
-                                    <h3>Cereais e Frutas</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="500ms">
-                                <div class="content-left">
-                                    <h3>Carne ao molho madeira</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                                </div>
-                                <div class="blog-img-2"><img src="images/blog/blog-img-3.jpg" alt="blog-img"></div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="600ms">
-                                <div class="content-left">
-                                    <h3>Carne de espetos</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                                </div>
-                                <div class="blog-img-2"><img src="images/blog/blog-img-4.jpg" alt="blog-img"></div>
-                            </li>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">    
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="top-nav">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Sobre nós</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#price">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#subscribe">Notícias</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact-us">Contato</a></li>
                         </ul>
-                        <a class="btn btn-default btn-more-info wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">Mais Informações</a>
                     </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #blog close -->
-    
-    <!-- price start -->
-    <section id="price">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">nosso<span> MENU</span> e<span> PREÇOS</span></h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                        <div class="pricing-list">
-                            <div class="title">
-                                <h3>Destaques<span> da semana</span></h3>
-                            </div>
+                </div>
+            </nav>
+        </section> <!--HEADER NAV END-->
+
+    </header><!-- HEADER END -->	
+	
+    <!-- MAIN START -->
+    <main>
+
+        <!-- ABOUT START -->
+        <section id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <img 
+                                class="about__img"                                 
+                                src="assets/img/about-coffee.webp" 
+                                alt="about-coffee"
+                            >
+
+                            <h1 
+                                class="heading about__h1">
+                                    Seu 
+                                    <span>Restaurant’s</span></br>Mais 
+                                    <span>sabor </span>em sua mesa.                            
+                            </h1>
+                            
+                            <p 
+                                class="about__p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                aliqua. Ut enim </br> ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- ABOUT END --> 
+
+        <!-- BLOG START-->
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h1 class="heading blog__h1">
+                                Ultimas<span> Novidades</span> no<span> Blog</span>
+                            </h1>
                             <ul>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Panquecas</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>R$ 25.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                <li class="blog__img">
+                                    <div class="blog-img">
+                                        <img src="assets/img/blog-img-1.webp" alt="blog-img">
+                                    </div>
+                                    <div class="content-right">
+                                        <h3>Frango ao molho branco</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                                     </div>
                                 </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Torta de Frango</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>R$ 10.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                
+                                <li class="blog__img">
+                                    <div class="blog-img">
+                                        <img src="assets/img/blog-img-2.webp" alt="blog-img">
+                                    </div>
+                                    <div class="content-right">
+                                        <h3>Cereais e Frutas</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                                     </div>
                                 </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Cereais e Frutas </h2>
-                                            <div class="border-bottom"></div>
-                                            <span>R$ 5.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                
+                                <li class="blog__img2">
+                                    <div class="content-left">
+                                        <h3>Carne ao molho madeira</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                    </div>
+                                    <div class="blog-img-2">
+                                        <img src="assets/img/blog-img-3.webp" alt="blog-img">
                                     </div>
                                 </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Carne de espetos</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 12.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                
+                                <li class="blog__img2">
+                                    <div class="content-left">
+                                        <h3>Carne de espetos</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                                     </div>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="700ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Bife com Risoto de Alho e Salsa</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>R$ 35.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Salada</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>R$ 7.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    <div class="blog-img-2">
+                                        <img src="assets/img/blog-img-4.webp" alt="blog-img">
                                     </div>
                                 </li>
                             </ul>
-                            <a class="btn btn-default pull-right wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">Mais Informações</a>
+                            
+                            <a 
+                                class="btn btn-default btn-more-info"
+                                href="#" 
+                                role="button">
+                                    Mais Informações
+                            </a>
                         </div>
                     </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #price close -->
+                </div>
+            </div>
+        </section><!-- BLOG END -->
+        
+        <!-- PRICE START -->
+        <section id="price">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h1 
+                                class="heading price__h1">
+                                    nosso<span> MENU</span> e<span> PREÇOS</span>
+                            </h1>
+                            
+                            <p 
+                                class="price__p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                            </p>
+                            
+                            <div class="pricing-list">
+                                <div class="title price__title">
+                                    <h3>Destaques<span> da semana</span></h3>
+                                </div>
+                            
+                                <ul>
+                                    <li class="price__list1">
+                                        <div class="item">
+                                            <div class="item-title">
+                                                <h2>Panquecas</h2>
+                                                <div class="border-bottom"></div>
+                                                <span>R$ 25.00</span>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                aliqua. Ut enim ad minim
+                                            </p>
+                                        </div>
+                                    </li>
+                            
+                                    <li class="price__list2">
+                                        <div class="item">
+                                            <div class="item-title">
+                                                <h2>Torta de Frango</h2>
+                                                <div class="border-bottom"></div>
+                                                <span>R$ 10.00</span>
+                                            </div>                                            
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                aliqua. Ut enim ad minim
+                                            </p>                                        
+                                        </div>
+                                    </li>
+
+                                    <li class="price__list3">
+                                        <div class="item">
+                                            <div class="item-title">
+                                                <h2>Cereais e Frutas </h2>
+                                                <div class="border-bottom"></div>
+                                                <span>R$ 5.00</span>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                aliqua. Ut enim ad minim
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="price__list4">
+                                        <div class="item">
+                                            <div class="item-title">
+                                                <h2>Carne de espetos</h2>
+                                                <div class="border-bottom"></div>
+                                                <span>R$ 12.00</span>
+                                            </div>                                            
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                aliqua. Ut enim ad minim
+                                            </p>                                            
+                                        </div>
+                                    </li>
+
+                                    <li class="price__list5">
+                                        <div class="item">
+                                            <div class="item-title">
+                                                <h2>Bife com Risoto de Alho e Salsa</h2>
+                                                <div class="border-bottom"></div>
+                                                <span>R$ 35.00</span>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                aliqua. Ut enim ad minim
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="price__list6">
+                                        <div class="item">
+                                            <div class="item-title">
+                                                <h2>Salada</h2>
+                                                <div class="border-bottom"></div>
+                                                <span>R$ 7.00</span>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                aliqua. Ut enim ad minim
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a 
+                                    class="btn btn-default pull-right price__btn" 
+                                    data-wow-duration="500ms" 
+                                    data-wow-delay="1200ms" 
+                                    href="#" 
+                                    role="button">
+                                        Mais Informações
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- PRICE END -->
+
+        <!-- SLIDER START -->
+        <section id="slider">
+            <div class="container">
+                <div class="col-12">
+                    <div class="title slider__title">
+                        <h3>Trabalhos em <span> destaque </span></h3>
+                    </div>
     
-    <!-- subscribe start -->
-    <section id="subscribe">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> ASSINE<span> a nossa</span> NEWSLETTER</h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Digite seu e-mail para se inscrever...">
-                                    <div class="input-group-addon">
-                                        <button class="btn btn-default" type="submit">Inscreva-se</button>
+                    <div 
+                        class="carousel slide  carousel__slide" 
+                        id="carouselExampleControlsNoTouching" 
+                        data-bs-touch="true" 
+                        data-bs-interval="false"
+                        >
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">  
+                                    <div class="card card-body d-block w-100">                                    
+                                        <div>
+                                            <img class="img-responsive" src="assets/img/slider-img-1.webp" alt="">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div>  
+                                    </div>                                  
+                                </div>
+        
+                                <div class="carousel-item">                         
+                                    <div class="card card-body d-block w-100">
+                                        <div>
+                                            <img class="img-responsive" src="assets/img/slider-img-2.webp" alt="">
+                                            <p>
+                                                Ut enimad minim veniam, quis nostrud exercitation
+                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #subscribe close -->
+
+                                <div class="carousel-item">                         
+                                    <div class="card card-body d-block w-100">
+                                        <div>
+                                            <img class="img-responsive" src="assets/img/slider-img-3.webp" alt="">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enimad minim veniam, quis nostrud exercitation
+                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">                         
+                                    <div class="card card-body d-block w-100">
+                                        <div>
+                                            <img class="img-responsive" src="assets/img/slider-img-4.webp" alt="">
+                                            <p>
+                                                Ut enimad minim veniam, quis nostrud exercitation
+                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div>                                    
+                                    </div>
+                                    
+                                </div>
+                        </div>                   
     
-    <!-- CONTACT US  start -->
-    <section id="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">nosso<span> CONTATO</span></h1>
-                        <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">Envie-nos uma mensagem. </h3>
-                        <form>
-                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escreva seu nome aqui...">
-                            </div>
-                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
-                                <input type="text" class="form-control" placeholder="Escreva seu email aqui...">
-                            </div>
-                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
-                                <textarea class="form-control" rows="3" placeholder="Escreva sua mensagem aqui..."></textarea>
-                            </div>
-                        </form>
-                        <a class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">Enviar mensagem</a>
+                        <button 
+                            class="carousel-control-next" 
+                            type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" 
+                            data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                        </button>   
                     </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .container close -->
-    </section><!-- #contact-us close -->
-    <!-- footer start -->
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
-                        <h3><span>Informações</span> de contato</h3>
-                        <div class="info">
-                            <ul>
-                                <li><h4><i class="fa fa-phone"></i>Telefone</h4><p>(11) 11 2222-3333</p></li>
-                                <li><h4><i class="fa fa-map-marker"></i>Address</h4><p>Lorem ipsum, 54</p></li>
-                                <li><h4><i class="fa fa-envelope"></i>Email</h4><p>restaurant@resturant.com</p></li>
-                            </ul>
+                </div>
+            </div>
+
+        </section><!-- SLIDER END -->   
+        
+        <!-- SUBSCRIBE START -->
+        <section id="subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h1 
+                                class=" heading subscribe__h1"> 
+                                    ASSINE<span> a nossa</span> NEWSLETTER
+                            </h1>
+                            
+                            <p 
+                                class="subscribe__p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                    elit, sed do eiusmod 
+                            </p>
+                            
+                            <form class="form-inline subscribe__form">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input 
+                                            type="text" 
+                                            class="form-control" 
+                                            id="exampleInputAmount" 
+                                            placeholder="Digite seu e-mail para se inscrever..."
+                                        >
+                                        
+                                        <div class="input-group-addon">
+                                            <button class="btn btn-default" type="submit">Inscreva-se</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <!-- .col-md-4 close -->
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="700ms">
-                        <h3> ÚLTIMAS<span> POSTAGENS DE BLOG</span></h3>
-                        <div class="blog">
-                            <ul>
-                                <li>
-                                    <h4><a href="#">Nov 9-2020</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
-                                </li>
-                                <li>
-                                    <h4><a href="#">Sep 8-2020</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
-                                </li>
-                            </ul>                
+            </div>
+        </section><!-- SUBSCRIBE END -->
+        
+        <!-- CONTACT START -->
+        <section id="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h1 
+                                class="heading contact__h1">
+                                    nosso<span> CONTATO</span>
+                            </h1>
+
+                            <h3 
+                                class="title contact__h3" >
+                                    Envie-nos uma mensagem. 
+                            </h3>
+                            
+                            <form class="contact__form">
+                                <div 
+                                    class="form-group">
+                                        <input 
+                                            type="text" 
+                                            class="form-control" 
+                                            id="id_nome" 
+                                            required="required"
+                                            placeholder="Escreva seu nome aqui..."
+                                        >
+                                </div>
+                                
+                                <div 
+                                    class="form-group">
+                                        <input 
+                                            type="email" 
+                                            class="form-control" 
+                                            id="id_email"
+                                            required="required"
+                                            placeholder="Escreva seu email aqui..."
+                                        >
+                                </div>
+
+                                <div 
+                                    class="form-group">
+                                        <textarea 
+                                            class="form-control" 
+                                            rows="3" 
+                                            id="id_msn"
+                                            required="required"
+                                            placeholder="Escreva sua mensagem aqui...">
+                                        </textarea>
+                                </div>
+                            </form>
+
+                            <a 
+                                class="btn btn-default contact__form__btn"
+                                href="#" 
+                                role="button">
+                                    Enviar mensagem
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!-- .col-md-4 close -->
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="1100ms">
-                        <div class="gallary">
-                            <h3>Acessos <span>recentes</span></h3>
-                            <ul>
-                                <li><a href="#"><img src="images/photo/photo-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/photo/photo-2.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/photo/photo-3.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/photo/photo-4.jpg" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="social-media-link">
-                            <h3>Siga-<span>nos</span></h3>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
+            </div>
+        </section><!-- CONTACT END -->
+
+        <!-- FOOTER MAIN START -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer__info">
+                        <div class="block">
+                            <h3><span>Informações</span> de contato</h3>
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <h4><img src="assets/img/icons-phone.svg">Telefone</h4>
+                                        <p>(11) 11 2222-3333</p>
+                                    </li>
+
+                                    <li>
+                                        <h4><img src="assets/img/icons-map.svg">Address</h4>
+                                        <p>Lorem ipsum, 54</p>
+                                    </li>
+                                    
+                                    <li>
+                                        <h4><img src="assets/img/icons-email.svg"></i>Email</h4>
+                                        <p>restaurant@resturant.com</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col-md-4 footer__postagens">
+                        <div class="block">
+                            <h3> ÚLTIMAS<span> POSTAGENS DE BLOG</span></h3>
+                            <div class="blog">
+                                <ul>
+                                    <li>
+                                        <h4><a href="#">Nov 9-2021</a></h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur 
+                                            adip iscing elit. Curabitur ut blandit sapien.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4><a href="#">Sep 10-2021</a></h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur 
+                                            adip iscing elit. Curabitur ut blandit sapien.
+                                        </p>
+                                    </li>
+                                </ul>                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 footer__acessos">
+                        <div class="block">
+                            <div class="gallary">
+                                <h3>Acessos <span>recentes</span></h3>
+                                <ul>
+                                    <li><a href="#"><img src="assets/img/footer-img-1.webp" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/footer-img-2.webp" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/footer-img-3.webp" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/footer-img-4.webp" alt=""></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="social-media-link">
+                                <h3>Siga-<span>nos</span></h3>
+                                <ul>
+                                    <li>
+                                        <abbr title="Twitter">
+                                            <a href="#"><img src="assets/img/icons-twitter.svg" alt="Twitter"></a>
+                                        </abbr>                                        
+                                    </li>
+
+                                    <li>
+                                        <abbr title="Facebook">
+                                            <a href="#"><img src="assets/img/icons-facebook.svg" alt="Facebook"></a>
+                                        </abbr>                                        
+                                    </li>                                    
+
+                                    <li>
+                                        <abbr title="Instagram">
+                                            <a href="#"><img src="assets/img/icons-instagram.svg" alt="Instagram"></a>
+                                        </abbr>                                        
+                                    </li>
+                                    <li>
+                                        <abbr title="Youtube">
+                                            <a href="#"><img src="assets/img/icons-youtube.svg" alt="Youtube"></a>
+                                        </abbr>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                   
                 </div>
-                <!-- .col-md-4 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #footer close -->
-    
-    <!-- footer-bottom  start -->
+            </div>
+        </section>
+    </main><!-- MAIN START -->
+
+    <!-- FOOTER START -->
     <footer id="footer-bottom">
         <div class="container">
             <div class="row">
@@ -346,18 +577,12 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer><!-- FOOTER END -->   
 
-
-    <!-- JS -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- SCRIPTS -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+    
 </body>
 </html>

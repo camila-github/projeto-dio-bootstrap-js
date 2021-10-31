@@ -1,0 +1,322 @@
+@media screen and (max-width: 1300px) {
+  #nav-menu .navbar-expand-lg .navbar-collapse {
+    padding: 15px 0 0 0; 
+  }
+}
+
+  @media screen and (max-width: 981px) { 
+  .title {
+    text-align: left;
+  }
+
+  #nav-menu {
+    border-bottom-right-radius: 60%;
+  }
+
+  #nav-menu nav {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  #nav-menu .navbar-brand {
+    margin-right: 9rem;
+  }
+
+  #nav-menu .navbar-brand img {
+    padding-left: 0.1rem;
+    margin-top: 1rem
+  }
+
+  #nav-menu .navbar-expand-lg .navbar-collapse .navbar-nav > li > a {
+    border: 0;
+    border-radius: 0;
+  }
+
+  #slider .container .carousel-inner .carousel-item .card div {
+    flex-direction: column;
+  }
+
+  #slider .container .carousel-control-next .carousel-control-next-icon {
+    bottom: 22.5rem;
+  }
+
+  #blog .block {
+    text-align: center;
+  }
+
+  #blog .block ul {
+    padding-bottom: 40px;
+  }
+
+  #blog .block ul li {
+    width: 100%;
+  }
+
+  #blog .block ul li h3 {
+    padding: 0px 0px 30px;
+  }
+
+  #blog .block ul li .blog-img {
+    width: 50%;
+  }
+
+  #blog .block ul li .blog-img img {
+    width: 100%;
+  }
+
+  #blog .block ul li .blog-img-2 {
+    width: 50%;
+  }
+
+  #blog .block ul li .blog-img-2 img {
+    width: 100%;
+  }
+  
+  #blog .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+  }
+
+  #blog .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+
+  #price .block p {
+    padding: 30px 0 0;
+  }
+
+  #price .block .pricing-list {
+    text-align: left;
+  }
+
+  #contact-us {
+    padding: 60px 0 0;
+  }
+
+  #contact-us .block {
+    text-align: center;
+  }
+
+  #contact-us .block .title {
+    text-align: left;
+  }
+
+  #contact-us .block a {
+    padding: 15px 80px;
+    float: inherit;
+  }
+
+  #footer .block {
+    padding-bottom: 20px;
+  }
+
+  #footer .block h3 {
+    padding-bottom: 10px;
+  }
+
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 980px) { 
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .heading span {
+    font-size: 28px;
+  }
+
+  .title {
+    text-align: left;
+  }
+  
+  #nav-menu .navbar-expand-lg {
+    margin-top: 10px;
+    padding: 3px 0;
+  }
+  
+  #nav-menu .navbar-expand-lg .navbar-collapse .navbar-nav li a:hover:before {
+    display: none;
+  }
+
+  #slider .container .carousel-inner .carousel-item .card div {
+    flex-direction: column;
+  }
+
+  #slider .container .carousel-inner .carousel-item .card div p {
+    font-size: 18px;
+  }
+
+  #about-us {
+    padding: 70px 0;
+  }
+
+  #about-us .block p,
+  #price .block p {
+    padding: 40px 0px 0px;
+    font-size: 18px;
+  }
+
+  #blog .block ul {
+    padding-bottom: 30px;
+  }
+
+  #blog .block ul li {
+    float: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  #blog .block ul li p {
+    padding-top: 10px;
+    padding-bottom: 35px;
+  }
+
+  #blog .block ul li .blog-img {
+    float: none;
+    width: 100%;    
+  }
+  
+  #blog .block ul li .blog-img img {
+    width: 100%;
+  }
+
+  #blog .block .blog__img2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #blog .block ul li .blog-img-2 {
+    float: none;
+    width: 100%;
+  }
+  
+  #blog .block ul li .blog-img-2 img {
+    width: 100%;
+  }
+
+  #blog .block ul li .content-right {
+    float: none;
+    width: 100%;
+  }
+  
+  #blog .block ul li .content-right:after {
+    display: none;
+  }
+  
+  #blog .block ul li .content-left {
+    float: none;
+    width: 100%; 
+  }
+
+  #blog .block ul li .content-left:after {
+    display: none;
+  
+  }
+
+  #blog .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+    padding: 28px 85px;
+  }
+
+  #blog .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+  
+  #price .block .pricing-list ul li .item p {
+    font-size: 18px;
+  }
+  
+  #price .block .pricing-list {
+    text-align: left;
+  }
+  
+  #price .block .pricing-list ul li .item {
+    float: none;
+  }
+  
+  #price .block .pricing-list ul li .item .item-title .border-bottom {
+    display: none;
+  }
+  
+  #price .block .pricing-list ul li .item .item-title span {
+    padding-top: 10px;
+    display: block;
+    float: none;
+  }
+  
+  #price .block .pricing-list .btn {
+    float: inherit;
+    padding: 28px 100px;
+  }
+  
+  #subscribe .block h1 {
+    font-size: 30px;
+  }
+  
+  #subscribe .block h1 span {
+    font-size: 25px;
+  }
+  
+  #subscribe .block form .form-group .input-group {
+    width: 100%;
+  }
+  
+  #subscribe .block form .form-group .input-group .form-control {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 65px;
+    border-radius: 0px;
+    float: inherit;
+  }
+  
+  #subscribe .block form .form-group .input-group .input-group-addon {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  
+  #contact-us .block a {
+    padding: 20px 80px;
+    width: 100%;
+    float: inherit;
+  }
+  
+  #footer .row {
+    flex-direction: column;
+  }
+
+  #footer .block {
+    padding-bottom: 50px;
+    width: 40rem;
+  }
+  
+  #footer .block .info ul li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
