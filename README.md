@@ -1,4 +1,4 @@
-## Projeto: Criação de uma pagina estatica responsivo, utilizando Bootstrap.
+## Projeto: Criação de uma pagina estatica responsivo, com uso de Bootstrap e JS.
 
 - Foi publicado uma pagina, utilizando os conceitos voltados ao Bootstrap. Conceitos como:
   * Criação de Containers. 
