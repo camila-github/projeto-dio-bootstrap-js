@@ -5,49 +5,41 @@
   --fourthColor: #fff;
   --fifthColor: #413f3fe8;
   --borderRadiusPadrao: 5px;
-  --fontsize18: 18px;
-  --fontSize24: 24px;
+  --fontsizeTitle1: 1.2rem;
+  --fontsizeTitle2: 1.4rem;
+
+  --fontSizeText1: 1.1rem;
+  --fontSizeText2: 1.2rem;
 }
 
-@font-face {
-  font-family: ufonts;
-  src: url(../fonts/ufonts.ttf);
-}
+
 html {
   overflow-x:hidden;
 }
 
 body {
-  font-family: ufonts;
-  font-size: var(--fontSize18);
-  font-weight: 400;
+  font-family: 'pt serif',georgia;;
+
 }
+
 
 h1, h2, h3, h4 {
-  margin: 0px;
-  font-family: ufonts;
-}
 
-h1 {
-  font-size: 36px;
+  margin: 0px;
+  
 }
 
 h2 {
-  font-size: 24px;
   font-weight: 500;
 }
 
 h3 {
-  font-size: var(--fontSize24);
   font-weight: 600;
 }
 
 p {
-  font-size: var(--fontSize18);
-  font-weight: 400;
   line-height: 20px;
   margin: 0px;
-  font-family: ufonts;
 }
 
 ul {
@@ -58,7 +50,6 @@ ul {
 
 a, a:active, a:focus, a:active {
   text-decoration: none !important;
-  font-size: var(--fontSize18);
 }
 
 .grid-header { grid-area: header; }
@@ -92,7 +83,6 @@ a, a:active, a:focus, a:active {
 }
 
 .heading span {
-  font-size: 45px;
   color: var(--secondColor);
   font-weight: 600;
 }
@@ -114,13 +104,14 @@ a, a:active, a:focus, a:active {
 .title {
   text-transform: uppercase;
   padding: 30px 0px;
+  font-size: var(--fontsizeTitle1);
 }
 
 .title h3 {
-  font-size: 24px;
+  font-size: var(--fontsizeTitle1);
   font-weight: 600;
   color: var(--secondColor);
-  width: 20rem;
+  width: 23rem;
   padding: 12px;
   border-right: 15px solid var(--secondColor);
   border-radius: 50%;
@@ -201,7 +192,6 @@ a, a:active, a:focus, a:active {
 
 #nav-menu .navbar-expand-lg .navbar-collapse .navbar-nav > li > a {
   color: var(--fourthColor);  
-  font-size: var(--fontSize18);
   text-transform: uppercase;
   margin: 0px 0px 0px 40px;
   border-right: outset;
@@ -271,6 +261,7 @@ a, a:active, a:focus, a:active {
   float: right; 
   height: 50px;
   width: 50px;
+ 
   border-radius: 50%;
   border: 2px solid var(--secondColor);
   background-image: url(../img/icons-angle-right.svg);
@@ -288,7 +279,7 @@ a, a:active, a:focus, a:active {
 
 #about-us .block p {
   color: var(--fifthColor);
-  font-size: 17px;
+  font-size: var(--fontSizeText2);
   line-height: 26px;
   padding: 40px 0px;
 }
@@ -324,6 +315,7 @@ a, a:active, a:focus, a:active {
 
 #blog .block .heading {
   color: var(--fourthColor);
+  font-weight: bold;
   z-index: 999;
 }
 
@@ -351,6 +343,7 @@ a, a:active, a:focus, a:active {
   padding: 0px 40px 20px;
   line-height: 26px;
   position: relative;
+  font-size: 1.4rem;
 }
 
 #blog .block ul li h3:before {
@@ -391,7 +384,7 @@ a, a:active, a:focus, a:active {
 
 #blog .block ul li .content-right {
   padding-top: 1rem;
-  font-size: var(--fontSize18);
+
   line-height: 26px;
   float: right;
   width: 50%;
@@ -443,7 +436,7 @@ a, a:active, a:focus, a:active {
   background: var(--firstColor);
   color: var(--fourthColor);
   text-transform: uppercase; 
-  font-size: var(--fontSize18);
+  font-size: var(--fontSizeText1);
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -455,6 +448,7 @@ a, a:active, a:focus, a:active {
 
 .content-left p, .content-right p {
   color: var(--fifthColor);
+  font-size: var(--fontSizeText1);
 }
 
 /***** MAIN - PRICE *****/
@@ -464,7 +458,7 @@ a, a:active, a:focus, a:active {
 
 #price .block > p {
   color: var(--fifthColor);
-  font-size: 17px;
+  font-size: var(--fontSizeText1);
   line-height: 26px;
   padding: 40px 133px 0;
   text-align: center;
@@ -492,6 +486,7 @@ a, a:active, a:focus, a:active {
   position: relative;
   z-index: 99;
   background: var(--fourthColor);
+  font-size: 1.6rem;
 }
 
 #price .block .pricing-list ul li .item .item-title .border-bottom {
@@ -500,19 +495,18 @@ a, a:active, a:focus, a:active {
   width: 100%;
   height: 1px;
   border: 1px dotted #C9C9C9;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 #price .block .pricing-list ul li .item .item-title span {
   float: right;
   color: #6d5f42;
-  font-size: 16px;
+  font-size: var(--fontSizeText1);
 }
 
 #price .block .pricing-list ul li .item p {
   padding: 12px 0 0px;
   color: var(--fifthColor);
-  font-size: 16px;
 }
 
 #price .block .pricing-list .btn {
@@ -523,7 +517,7 @@ a, a:active, a:focus, a:active {
   color: var(--fourthColor);
   text-transform: uppercase;
   font-weight: 600;
-  font-size: var(--fontSize18);
+  font-size: var(--fontSizeText1);
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -564,8 +558,9 @@ a, a:active, a:focus, a:active {
 #subscribe .block p {
   padding: 25px 0px;
   color: var(--thirdColor);
-  font-size: 24px;
+  font-size: var(--fontSizeText2);
   opacity: 0.9;
+  font-weight: bold;
 }
 
 #subscribe .block form .form-control {
@@ -575,7 +570,7 @@ a, a:active, a:focus, a:active {
   border: none;
   height: 65px;
   border-radius: var(--borderRadiusPadrao);
-  font-size: var(--fontSize18);
+  font-size: var(--fontSizeText1);
 }
 
 #subscribe .block form .input-group-addon {
@@ -592,7 +587,7 @@ a, a:active, a:focus, a:active {
   border: none;
   text-transform: uppercase;  
   font-weight: 600;  
-  font-size: var(--fontSize18);
+  font-size: var(--fontSizeText1);
   letter-spacing: 2px;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -637,7 +632,6 @@ a, a:active, a:focus, a:active {
   background: var(--firstColor);
   float: right;
   color: var(--fourthColor);
-  font-weight: 600;
   text-transform: uppercase;
   border-radius: var(--borderRadiusPadrao);
   width: 300px;
@@ -648,6 +642,7 @@ a, a:active, a:focus, a:active {
   transition: .3s all;
   border: none;
   box-shadow: none;
+  font-weight: bold;
 }
 
 /***** MAIN - FOOTER *****/
@@ -658,6 +653,7 @@ a, a:active, a:focus, a:active {
 #footer .block h3 {
   color: var(--fifthColor);
   padding-bottom: 25px;
+  font-size: 1.3rem;
 }
 
 #footer .block h3 span {
@@ -689,29 +685,26 @@ a, a:active, a:focus, a:active {
   padding-bottom: 10px;
   display: block;
   color: var(--firstColor);
+  font-size: 1.3rem;
 }
 
 #footer .block .info ul li h4 img {
   color: var(--fifthColor);
   margin-right: 20px;
-  font-size: var(--fontSize24);
-  
 }
 
 #footer .block .blog ul li h4 a {
   color: var(--firstColor);
-  font-size: var(--fontSize24);
-  font-weight: 600;
+  font-size: 1.3rem;
 }
 
 #footer .block .blog ul li p,
 #footer .block .info ul li p {
   color: var(--fifthColor);
-  font-size: var(--fontSize18);
 }
 
 #footer .block .social-media-link h3 {
-  font-size: var(--fontSize24);
+  font-size: var(--fontsizeTitle1);
   padding-bottom: 15px;
   padding-top: 30px;
 }
@@ -731,7 +724,7 @@ a, a:active, a:focus, a:active {
   width: 40px;
   height: 40px;
   text-align: center;
-  font-size: var(--fontSize24);
+  font-size: var(--fontsizeTitle1);
   padding-top: 3px;
   border-radius: 100%;
   background: #B0B0B0;
@@ -764,8 +757,7 @@ a, a:active, a:focus, a:active {
   text-align: center;
   padding: 8px;
   color: var(--fourthColor);
-  font-size: 18px;
-font-weight: bold;
+  font-weight: bold;
   letter-spacing: 2px;
 }
 
@@ -791,9 +783,8 @@ font-weight: bold;
 }
 
 .scrolltop__icon {
-  font-size: 1.8rem;
+  font-size: var(--fontsizeTitle1);
   color: var(--fourthColor);
-  font-weight: bold;
 }
 
 .show-scroll {
