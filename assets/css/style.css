@@ -5,8 +5,8 @@
   --fourthColor: #fff;
   --fifthColor: #413f3fe8;
   --borderRadiusPadrao: 5px;
-  --fontSize15: 15px;
-  --fontSize20: 20px;
+  --fontsize18: 18px;
+  --fontSize24: 24px;
 }
 
 @font-face {
@@ -19,7 +19,7 @@ html {
 
 body {
   font-family: ufonts;
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   font-weight: 400;
 }
 
@@ -38,12 +38,12 @@ h2 {
 }
 
 h3 {
-  font-size: var(--fontSize20);
+  font-size: var(--fontSize24);
   font-weight: 600;
 }
 
 p {
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   font-weight: 400;
   line-height: 20px;
   margin: 0px;
@@ -58,7 +58,7 @@ ul {
 
 a, a:active, a:focus, a:active {
   text-decoration: none !important;
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
 }
 
 .grid-header { grid-area: header; }
@@ -201,7 +201,7 @@ a, a:active, a:focus, a:active {
 
 #nav-menu .navbar-expand-lg .navbar-collapse .navbar-nav > li > a {
   color: var(--fourthColor);  
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   text-transform: uppercase;
   margin: 0px 0px 0px 40px;
   border-right: outset;
@@ -391,7 +391,7 @@ a, a:active, a:focus, a:active {
 
 #blog .block ul li .content-right {
   padding-top: 1rem;
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   line-height: 26px;
   float: right;
   width: 50%;
@@ -443,7 +443,7 @@ a, a:active, a:focus, a:active {
   background: var(--firstColor);
   color: var(--fourthColor);
   text-transform: uppercase; 
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -523,7 +523,7 @@ a, a:active, a:focus, a:active {
   color: var(--fourthColor);
   text-transform: uppercase;
   font-weight: 600;
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -575,7 +575,7 @@ a, a:active, a:focus, a:active {
   border: none;
   height: 65px;
   border-radius: var(--borderRadiusPadrao);
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
 }
 
 #subscribe .block form .input-group-addon {
@@ -592,7 +592,7 @@ a, a:active, a:focus, a:active {
   border: none;
   text-transform: uppercase;  
   font-weight: 600;  
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
   letter-spacing: 2px;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -694,24 +694,24 @@ a, a:active, a:focus, a:active {
 #footer .block .info ul li h4 img {
   color: var(--fifthColor);
   margin-right: 20px;
-  font-size: var(--fontSize20);
+  font-size: var(--fontSize24);
   
 }
 
 #footer .block .blog ul li h4 a {
   color: var(--firstColor);
-  font-size: var(--fontSize20);
+  font-size: var(--fontSize24);
   font-weight: 600;
 }
 
 #footer .block .blog ul li p,
 #footer .block .info ul li p {
   color: var(--fifthColor);
-  font-size: var(--fontSize15);
+  font-size: var(--fontSize18);
 }
 
 #footer .block .social-media-link h3 {
-  font-size: var(--fontSize20);
+  font-size: var(--fontSize24);
   padding-bottom: 15px;
   padding-top: 30px;
 }
@@ -731,7 +731,7 @@ a, a:active, a:focus, a:active {
   width: 40px;
   height: 40px;
   text-align: center;
-  font-size: var(--fontSize20);
+  font-size: var(--fontSize24);
   padding-top: 3px;
   border-radius: 100%;
   background: #B0B0B0;
@@ -764,7 +764,7 @@ a, a:active, a:focus, a:active {
   text-align: center;
   padding: 8px;
   color: var(--fourthColor);
-  font-size: 16px;
+  font-size: 18px;
 font-weight: bold;
   letter-spacing: 2px;
 }
