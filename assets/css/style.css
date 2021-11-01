@@ -13,12 +13,14 @@
   font-family: ufonts;
   src: url(../fonts/ufonts.ttf);
 }
+html {
+  overflow-x:hidden;
+}
 
 body {
   font-family: ufonts;
   font-size: var(--fontSize15);
   font-weight: 400;
-  width: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -58,6 +60,27 @@ a, a:active, a:focus, a:active {
   text-decoration: none !important;
   font-size: var(--fontSize15);
 }
+
+.grid-header { grid-area: header; }
+.grid-main { grid-area: main; }
+.grid-footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  grid-gap: 5px;
+  min-width: 100%;
+}
+.grid-header,
+.grid-main,
+.grid-footer{
+  min-width: 100%;
+}
+
+
 
 /***** CUSTOM HEADING *****/
 .heading {
