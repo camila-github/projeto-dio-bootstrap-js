@@ -12,21 +12,16 @@
   --fontSizeText2: 1.2rem;
 }
 
-
 html {
   overflow-x:hidden;
 }
 
 body {
   font-family: 'pt serif',georgia;;
-
 }
 
-
 h1, h2, h3, h4 {
-
   margin: 0px;
-  
 }
 
 h2 {
@@ -65,13 +60,12 @@ a, a:active, a:focus, a:active {
   grid-gap: 5px;
   min-width: 100%;
 }
+
 .grid-header,
 .grid-main,
 .grid-footer{
   min-width: 100%;
 }
-
-
 
 /***** CUSTOM HEADING *****/
 .heading {
@@ -261,7 +255,6 @@ a, a:active, a:focus, a:active {
   float: right; 
   height: 50px;
   width: 50px;
- 
   border-radius: 50%;
   border: 2px solid var(--secondColor);
   background-image: url(../img/icons-angle-right.svg);
@@ -384,7 +377,6 @@ a, a:active, a:focus, a:active {
 
 #blog .block ul li .content-right {
   padding-top: 1rem;
-
   line-height: 26px;
   float: right;
   width: 50%;
@@ -524,7 +516,6 @@ a, a:active, a:focus, a:active {
   border: none;
   box-shadow: none;
 }
-
 
 /***** MAIN - SUBSCRIBE *****/
 #subscribe {

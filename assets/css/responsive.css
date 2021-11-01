@@ -4,8 +4,7 @@
   }
 }
 
-
-  @media (max-width: 981px) { 
+@media (max-width: 981px) { 
   .title {
     text-align: left;
   }
