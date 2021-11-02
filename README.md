@@ -24,7 +24,7 @@
 - Ajustado a semantica do HTML (SEO). Removido tags desnecessarias.
 - Removido Jquery e utilizado JavaScript ES6 com a biblioteca Scrollreveal.
 - Atualizado versão do Bootstrap para v5.
-- Utilizado Flexbox (Css)
+- Utilizado Flexbox e Grid (Css)
 - Reduzido tamanho das imagens convertendo para .webp - Link: https://developers.google.com/speed/webp/download.
 - Realizado pequenas alterações no Layout, mantendo boa parte do layout anterior.
 - O intuito desse update foi treinar uma refatoração, update de versão, troca de ferramenta (como biblioteca), sem fazer muitas alterações no layout do site.
